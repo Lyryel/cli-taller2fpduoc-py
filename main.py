@@ -32,4 +32,30 @@ separadas del código principal (main).
     Programa finalizado...
 
     *En caso de ingresar una opción inexistente, dar el respectivo mensaje de error."""
+def main():
+    print ("""Biblioteca Pública.
+TOTEM AUTOSERVICIO BIBLIOTECA PÚBLICA
+1.- Matricular.
+2.- Cancelar Matrícula.
+3.- Cupos disponibles.
+4.- Salir.""")
+    opcion = input("ingrese opcion: ")
+    print(opcion)
+    if opcion == "1":  
+        matricular()
+
+
+def saludar():
+    print("Hola Hola Hola...")
+
+def matricular():
+    codigo = input("ingresar codigo: ")
+    nombre_de_usuario = input("ingresar nombre de usuario: ")
+    tipo_de_inscripcion = input("ingrese el tipo de inscripción: ")
+    codigo_de_verificacion = input("ingrese un codigo de verificacion: ")
+
+
+
+main() 
+
 
